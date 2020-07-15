@@ -17,8 +17,16 @@ Install velociraptor cli
 ```
 deno install -qA -n vr https://deno.land/x/velociraptor@v1.0.0-beta.12/cli.ts
 ```
+Install Drun (similar nodemon in node.js)
+```
+deno install --allow-read --allow-run --unstable https://deno.land/x/drun@v1.1.0/drun.ts
+```
 
 ### Run project
+```
+ drun
+```
+or
 ```
  vr start
 ```

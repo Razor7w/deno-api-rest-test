@@ -1,0 +1,6 @@
+{
+  "entryPoint": "./main.ts",
+  "cwd": "./",
+  "excludes": [""],
+  "runtimeOptions": ["--allow-net", "--allow-read", "--allow-env"]
+}
