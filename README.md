@@ -29,7 +29,7 @@ or
 see scripts in project.
 ### Future features
 
-1.- Use Velociraptor (https://deno.land/x/velociraptor) [OK].
-2.- Order directories.
-3.- Integrate database.
-4.- Integrate views.
+1.- Use Velociraptor (https://deno.land/x/velociraptor) [OK].     
+2.- Order directories.   
+3.- Integrate database.   
+4.- Integrate views.   
