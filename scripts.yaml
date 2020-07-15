@@ -1,0 +1,8 @@
+allow:
+  - net
+  - read
+  - env
+scripts:
+  start:
+    desc: Runs the server
+    cmd: deno run main.ts

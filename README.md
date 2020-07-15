@@ -13,19 +13,23 @@ In linux (in root folder):
 ```
  cp .env-example .env
 ```
+Install velociraptor cli
+```
+deno install -qA -n vr https://deno.land/x/velociraptor@v1.0.0-beta.12/cli.ts
+```
 
 ### Run project
 ```
- deno run --allow-net --allow-env --allow-read .\main.ts
+ vr start
 ```
 or
 ```
- deno run --allow-all .\main.ts
+ vr
 ```
-
+see scripts in project.
 ### Future features
 
-1.- Use Velociraptor (https://deno.land/x/velociraptor).
+1.- Use Velociraptor (https://deno.land/x/velociraptor) [OK].
 2.- Order directories.
 3.- Integrate database.
 4.- Integrate views.
